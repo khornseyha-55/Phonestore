@@ -303,15 +303,15 @@ button i {
     height: 400px;
 }
 .poster-products .box-model-2 img {
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
     object-fit: cover;
     transition: all 0.3s ease;
     cursor: pointer;
     filter: drop-shadow(6px 5px 10px gray);
 }
 .poster-products .box-model-2 img:hover {
-    transform: rotate(10deg) translateX(10px) scale(1.06);
+    transform: rotate(10deg) translateX(10px) scale(1.05);
 }
 .box-model-3 .space-model {
     padding: 20px 0px;
