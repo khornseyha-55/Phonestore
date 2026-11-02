@@ -187,9 +187,13 @@ header ul li ul.sub-nav li:hover ul.sub-nav2 {
     border-right: 3px solid gray;
     transition: 0.2s ease-in;
     border-radius: 10px;
+    transition: 0.2s ease;
 }
 .hero-contant .contant:hover {
     background-color: #eae9e9b8;
+}
+.hero-contant .contant:hover i {
+    background-color: #776db1bb;
 }
 .hero-contant .contant i {
     display: flex;
@@ -198,8 +202,9 @@ header ul li ul.sub-nav li:hover ul.sub-nav2 {
     font-size: 25px;
     width: 40px;
     height: 40px;
+    transition: 0.2s ease;
     color: whitesmoke;
-    box-shadow: rgba(100, 100, 111, 0.633) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.287) 0px 7px 29px 0px;
     background-color: #ae96d8bb;
     padding: 10px 0px;
     border-radius: 10px;
@@ -303,6 +308,7 @@ button i {
     object-fit: cover;
     transition: all 0.3s ease;
     cursor: pointer;
+    filter: drop-shadow(6px 5px 10px gray);
 }
 .poster-products .box-model-2 img:hover {
     transform: rotate(10deg) translateX(10px) scale(1.06);
@@ -401,7 +407,7 @@ button i {
     object-fit: cover;
 }
 .products-card .card:hover {
-    transform: scale(1.03);
+    transform: scale(1.02);
 }
 .products-card .card .bagde {
     width: 100%;
@@ -417,7 +423,7 @@ button i {
     width: 50px;
     padding: 6px 0px;
     background-color: #b4bd9d67;
-    color: rgb(2, 166, 2);
+    color: rgb(2, 220, 2);
     border-radius: 6px;
     backdrop-filter: blur(1px);
     box-shadow: rgba(102, 143, 94, 0.05) 0px 6px 24px 0px, rgba(1, 140, 42, 0.08) 0px 0px 0px 1px;
@@ -539,7 +545,7 @@ footer {
     grid-template-columns: repeat( 4 , 1fr);
     gap: 30px;
     max-width: 100%;
-    padding: 0px 20px;
+    padding: 30px 20px;
 }
 footer h2 {
     padding: 20px 0px;
@@ -552,6 +558,9 @@ footer ul , a {
 } 
 footer ul li {
     padding: 5px 0px;
+}
+footer .footer-1 p {
+    color: gainsboro;
 }
 footer .footer-2 ul li a:hover {
     color: #ccc;
@@ -631,6 +640,12 @@ footer .footer-4 ul li a i:hover {
 
     .poster-products {
         justify-content: center;
+    }
+
+    .products-card .card img {
+        width: 100%;
+        height: 230px;
+        object-fit: cover;
     }
 
     .benner-poster {
