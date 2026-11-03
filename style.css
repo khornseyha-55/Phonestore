@@ -148,6 +148,7 @@ header ul li ul.sub-nav li:hover ul.sub-nav2 {
     padding: 20px 0px;
 }
 .hero-title .title p {
+    font-size: 1.2rem;
     color: #444;
     padding-bottom: 30px;
 }
@@ -648,6 +649,9 @@ footer .footer-4 ul li a i:hover {
         object-fit: cover;
     }
     .box-model-3 .space-model p {
+        font-size: 1rem;
+    }
+    .hero-title .title p {
         font-size: 1rem;
     }
 
