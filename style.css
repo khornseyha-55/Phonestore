@@ -466,8 +466,8 @@ button i {
 
 }
 .card .title .price-box button {
-    border-style: none;
     width: 90px;
+    border-style: none;
     padding: 10px 0px;
     background-color: dodgerblue;
     border-radius: 8px;
@@ -628,8 +628,10 @@ footer .footer-4 ul li a i:hover {
     }
 
     .hero {
-        padding: 10px;
+        width: 100%;
+        padding: 0px;
     }
+
     .hero .hero-logo {
         display: none;
     }
@@ -645,13 +647,14 @@ footer .footer-4 ul li a i:hover {
 
     .products-card .card img {
         width: 100%;
-        height: 220px;
+        height: 200px;
         object-fit: cover;
     }
     .box-model-3 .space-model p {
         font-size: 1rem;
     }
     .hero-title .title p {
+        width: 90%;
         font-size: 1rem;
     }
 
@@ -705,9 +708,13 @@ footer .footer-4 ul li a i:hover {
         font-size: 1rem;
     }
     .card .title p {
+        padding: 5px 0px;
         font-size: 0.6rem;
     }
-
+    .card .title .price-box button {
+        width: 80px;
+        font-size: 10px;
+    }
 
     footer {
         grid-template-columns: repeat( 1 , 1fr);
