@@ -711,8 +711,12 @@ footer .footer-4 ul li a i:hover {
         padding: 5px 0px;
         font-size: 0.6rem;
     }
+    .card .title .price-box .price h4 {
+        font-size: 0.8rem;
+    }
     .card .title .price-box button {
-        width: 80px;
+        width: 70px;
+        padding: 8px 0px;
         font-size: 10px;
     }
 
